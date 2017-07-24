@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="SpecHeadView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*温馨提示:每项均为必选哦。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7B-yJ-yhf">
+                    <rect key="frame" x="49" y="19" width="131" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.89411764709999997" green="0.090196078430000007" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*温馨提示:每项均为必选哦。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTh-Jc-uzk">
+                    <rect key="frame" x="47" y="19" width="131" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.89411764709999997" green="0.090196078430000007" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="成色" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="07J-fK-aPM">
+                    <rect key="frame" x="8" y="16" width="31" height="18"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="07J-fK-aPM" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" id="2LL-AB-FSK"/>
+                <constraint firstItem="07J-fK-aPM" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="8" id="BBk-Fo-201"/>
+                <constraint firstItem="sTh-Jc-uzk" firstAttribute="leading" secondItem="07J-fK-aPM" secondAttribute="trailing" constant="8" id="OLn-EB-tKZ"/>
+                <constraint firstItem="i7B-yJ-yhf" firstAttribute="centerY" secondItem="07J-fK-aPM" secondAttribute="centerY" id="Psn-vk-9IL"/>
+                <constraint firstItem="i7B-yJ-yhf" firstAttribute="leading" secondItem="07J-fK-aPM" secondAttribute="trailing" constant="10" id="XFG-Mg-wiG"/>
+                <constraint firstItem="sTh-Jc-uzk" firstAttribute="centerY" secondItem="07J-fK-aPM" secondAttribute="centerY" id="hS2-w0-umw"/>
+            </constraints>
+            <connections>
+                <outlet property="alertLabel" destination="i7B-yJ-yhf" id="phT-jy-aes"/>
+                <outlet property="nameLabel" destination="07J-fK-aPM" id="sgE-Fv-Ze9"/>
+                <outlet property="specInfo" destination="sTh-Jc-uzk" id="FKT-lM-kaz"/>
+            </connections>
+            <point key="canvasLocation" x="-15" y="154"/>
+        </collectionReusableView>
+    </objects>
+</document>
