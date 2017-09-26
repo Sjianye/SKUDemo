@@ -10,7 +10,6 @@
 
 @interface SpecHeadView : UICollectionReusableView
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
-@property (weak, nonatomic) IBOutlet UILabel *alertLabel;
-@property (weak, nonatomic) IBOutlet UILabel *specInfo;
+@property (weak, nonatomic) IBOutlet UILabel *specInfo;//说明
 
 @end

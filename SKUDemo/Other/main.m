@@ -1,9 +1,9 @@
 //
 //  main.m
-//  SkuDemo
+//  SKUDemo
 //
-//  Created by HFL on 2017/1/17.
-//  Copyright © 2017年 HFL. All rights reserved.
+//  Created by 改车吧 on 2017/9/26.
+//  Copyright © 2017年 SJianye. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
